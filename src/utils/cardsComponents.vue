@@ -2,6 +2,9 @@
 <template>
     <div class="project-card">
         <h4>{{ nome }}</h4>
+        <div>
+            <img :src="imagem" alt="">
+        </div>
         <div class="btn-group">
             <a :href="github" target="_blank" class="btn btn-outline-primary">GitHub</a>
             <a :href="web" target="_blank" class="btn btn-outline-success">Ver Online</a>
@@ -13,6 +16,7 @@
 defineProps< {
     nome: string
     github: string
+    imagem?: string
     web: string
 }>()
 </script>
@@ -36,5 +40,9 @@ defineProps< {
     justify-content: center;
     gap: 10px;
     margin-top: 15px;
+}
+
+img {
+    width: 300px;
 }
 </style>

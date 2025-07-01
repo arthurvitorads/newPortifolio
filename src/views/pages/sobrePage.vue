@@ -8,6 +8,8 @@
           v-for="(projeto, index) in projetos"
           :key="index"
           :nome="projeto.nome"
+          :imagem="projeto.img"
+          :sobre="projeto.sobre"
           :github="projeto.github"
           :web="projeto.web"
         />
@@ -21,9 +23,11 @@ import ProjectCard from '@/utils/cardsComponents.vue'
 
 const projetos = [
   {
-    nome: 'Portfolio',
-    github: 'https://github.com/seuusuario/portfolio',
-    web: 'https://seuportfolio.com',
+    nome: 'BusFinder',
+    github: 'https://github.com/arthurvitorads/linhaDeOnibus',
+    img: '/preview.png',
+    sobre: '',
+    web: 'https://arthurvitorads.github.io/linhaDeOnibus/',
   },
   {
     nome: 'ToDo App',
