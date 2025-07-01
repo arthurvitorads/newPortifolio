@@ -6,13 +6,13 @@
                 <nav class="navegacao-lista nav">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#inicio">Início</a>
+                            <router-link to="/"><a class="nav-link active" href="#inicio">Início</a></router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <router-link to="/sobre"><a class="nav-link active" href="#inicio">Sobre</a></router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <router-link to="/contato"><a class="nav-link active" href="#inicio">Contato</a></router-link>
                         </li>
                     </ul>
                 </nav>
