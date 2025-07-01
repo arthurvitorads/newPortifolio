@@ -6,18 +6,18 @@
                 <nav class="navegacao-lista nav">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <router-link to="/"><a class="nav-link active" href="#inicio">Início</a></router-link>
+                            <router-link to="/" class="nav-link active">Início</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/sobre"><a class="nav-link active" href="#inicio">Sobre</a></router-link>
+                            <router-link to="/sobre" class="nav-link active">Sobre</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/contato"><a class="nav-link active" href="#inicio">Contato</a></router-link>
+                            <router-link to="/contato" class="nav-link active">Contato</router-link>
                         </li>
                     </ul>
                 </nav>
                 <div class="download-cv">
-                    <a href="/CURRICULO.pdf" download class="btn btn-primary">Baixar CV</a>
+                    <a href="/CURRICULO.pdf" download class="btn btn-outline-primary">Baixar CV</a>
 
                 </div>
             </div>
@@ -58,6 +58,7 @@ export default defineComponent({
     gap: 100px;
 
 }
+
 .navegacao-lista ul {
     gap: 20px;
 }
@@ -65,5 +66,4 @@ export default defineComponent({
 .nav-link {
     color: white;
 }
-
 </style>

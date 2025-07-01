@@ -13,7 +13,8 @@
                         width="50" height="50" />
                 </div>
                 <div>
-                    <router-link to="/sobre"><button type="button" class="btn btn-success">Saiba mais</button></router-link>
+                    <router-link to="/sobre"><button type="button" class="btn btn-outline-success">Saiba
+                            mais</button></router-link>
                 </div>
             </div>
         </div>
@@ -43,7 +44,7 @@ const icones = {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 70vh;
+    height: 65vh;
 }
 
 .img-perfil {
@@ -58,7 +59,7 @@ const icones = {
     width: 500px;
 }
 
-.btn-success {
+.btn-outline-success {
     padding: 10px 30px 10px 30px;
     margin-top: 50px;
 }

@@ -1,31 +1,50 @@
 <template>
-  <section class="header">
-    <navComponent />
-  </section>
-  <section class="main">
-    <router-view />
-  </section>
+  <div class="layout">
+    <section class="header">
+      <navComponent />
+    </section>
+    <section class="main">
+      <router-view />
+    </section>
+    <section class="footer">
+      <footerComponent />
+    </section>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import navComponent from '@/components/navComponent.vue'
+import footerComponent from '@/components/footerComponent.vue'
 
 export default defineComponent({
   name: 'MainApp',
   components: {
     navComponent: navComponent,
+    footerComponent: footerComponent
   }
 });
 </script>
 
-<style>
+<style scoped>
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html,
 body {
-  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
 }
 </style>
