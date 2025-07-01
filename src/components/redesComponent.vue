@@ -43,9 +43,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.contact-section {
-  padding: 60px 0;
-}
 
 h2 {
   font-weight: bold;
@@ -60,7 +57,7 @@ h2 {
 }
 
 .contact-card {
-  width: 200px;
+  width: 250px;
   height: 120px;
   background-color: white;
   border-radius: 12px;

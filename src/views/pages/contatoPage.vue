@@ -1,4 +1,5 @@
 <template>
+  
   <section class="contact-section">
     <RedesComponent />
   </section>
@@ -9,4 +10,10 @@ import RedesComponent from '@/components/redesComponent.vue';
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.contact-section {
+  padding: 60px 0;
+}
+
+</style>
