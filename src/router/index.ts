@@ -4,6 +4,7 @@ import MainApp from '@/views/main.vue'
 import InicioPage from '@/views/pages/inicioPage.vue'
 import SobrePage from '@/views/pages/sobrePage.vue'
 import ContatoPage from '@/views/pages/contatoPage.vue'
+import ProjectsPage from '@/views/pages/projectsPage.vue'
 
 const routes = [
   {
@@ -16,8 +17,13 @@ const routes = [
         component: InicioPage
       },
       {
+        path: '/projetos',
+        name: 'Projetos',
+        component: ProjectsPage
+      },
+      {
         path: '/sobre',
-        name: 'sobre',
+        name: 'Sobre',
         component: SobrePage
       },
       {

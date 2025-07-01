@@ -1,4 +1,3 @@
-<!-- ProjectCard.vue -->
 <template>
     <div class="project-card">
         <h4>{{ nome }}</h4>

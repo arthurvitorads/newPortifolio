@@ -57,7 +57,7 @@ h2 {
 }
 
 .contact-card {
-  width: 250px;
+  width: 230px;
   height: 120px;
   background-color: white;
   border-radius: 12px;

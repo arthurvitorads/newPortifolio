@@ -9,7 +9,10 @@
                             <router-link to="/" class="nav-link active">Início</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/sobre" class="nav-link active">Projetos</router-link>
+                            <router-link to="/projetos" class="nav-link active">Projetos</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/sobre" class="nav-link active">Sobre</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link to="/contato" class="nav-link active">Contato</router-link>
