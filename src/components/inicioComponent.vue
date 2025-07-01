@@ -13,10 +13,6 @@
                         width="50" height="50" />
                 </div>
             </div>
-
-        </div>
-        <div>
-            <a href="#saiba-mais" class="btn btn-success">Saiba Mais</a>
         </div>
     </section>
 </template>
