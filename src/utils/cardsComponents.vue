@@ -19,7 +19,7 @@ defineProps<{
     github: string
     imagem?: string
     sobre?: string
-    web: string
+    web?: string
 }>()
 </script>
 

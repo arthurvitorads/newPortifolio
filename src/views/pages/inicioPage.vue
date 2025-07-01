@@ -63,4 +63,11 @@ const icones = {
     padding: 10px 30px 10px 30px;
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+.container{
+    display: block;
+}
+}
+
 </style>

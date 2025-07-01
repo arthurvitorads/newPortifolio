@@ -16,6 +16,13 @@ import ProjectCard from '@/utils/cardsComponents.vue'
 
 const projetos = [
     {
+        nome: 'PostGerence',
+        github: 'https://github.com/arthurvitorads/postGerence',
+        img: '/preview3.png',
+        sobre: 'Este projeto foi desenvolvido para aplicar meus conhecimentos em HTML, CSS e JavaScript.',
+        web: '',
+    },
+    {
         nome: 'BusFinder',
         github: 'https://github.com/arthurvitorads/linhaDeOnibus',
         img: '/preview.png',
@@ -23,40 +30,12 @@ const projetos = [
         web: 'https://arthurvitorads.github.io/linhaDeOnibus/',
     },
     {
-        nome: 'ToDo App',
-        github: 'https://github.com/seuusuario/todo-app',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://todoapp.vercel.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
+        nome: 'NutriPro',
+        github: 'https://github.com/arthurvitorads/NutriPro',
+        img: '/preview2.png',
+        sobre: 'Este projeto foi desenvolvido para aplicar meus conhecimentos em HTML, CSS e JavaScript.',
+        web: 'https://arthurvitorads.github.io/NutriPro/',
+    }
 ]
 </script>
 
