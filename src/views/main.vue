@@ -33,11 +33,6 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 .layout {
   display: flex;
   flex-direction: column;
@@ -46,5 +41,13 @@ body {
 
 .main {
   flex: 1;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 </style>

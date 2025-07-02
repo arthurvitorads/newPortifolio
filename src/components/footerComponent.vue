@@ -11,10 +11,4 @@
   justify-content: center;
   align-items: center;
 }
-
-@media (max-width: 768px) {
-  footer {
-    margin-top: 100px;
-  }
-}
 </style>

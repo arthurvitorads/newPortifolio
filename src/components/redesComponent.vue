@@ -1,35 +1,35 @@
 <template>
-    <div class="container text-center">
-          <h2 class="mb-4">Entre em Contato</h2>
-          <p>Você pode falar comigo pelas redes sociais ou por e-mail/telefone abaixo:</p>
-    
-          <div class="contact-grid">
-            <a href="https://www.instagram.com/arthurvitorgtr" target="_blank" class="contact-card">
-              <img src="/instagram.svg" alt="Instagram" />
-              <span>@arthurvitorgtr</span>
-            </a>
-    
-            <a href="https://www.linkedin.com/in/arthur-vitor-356084245/" target="_blank" class="contact-card">
-              <img src="/linkedin.svg" alt="LinkedIn" />
-              <span>Arthur Vitor</span>
-            </a>
-    
-            <a href="https://github.com/arthurvitorads" target="_blank" class="contact-card">
-              <img src="/github.svg" alt="GitHub" />
-              <span>/arthurvitorads</span>
-            </a>
-    
-            <div class="contact-card">
-              <img src="/email.svg" alt="Email" />
-              <span>arhturvitorsilvio@gmail.com</span>
-            </div>
-    
-            <div class="contact-card">
-              <img src="/phone.svg" alt="Telefone" />
-              <span>(44) 99720-0378</span>
-            </div>
-          </div>
-        </div>
+  <div class="container text-center">
+    <h2 class="mb-4">Entre em Contato</h2>
+    <p>Você pode falar comigo pelas redes sociais ou por e-mail/telefone abaixo:</p>
+
+    <div class="contact-grid">
+      <a href="https://www.instagram.com/arthurvitorgtr" target="_blank" class="contact-card">
+        <img src="/instagram.svg" alt="Instagram" />
+        <span>@arthurvitorgtr</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/arthur-vitor-356084245/" target="_blank" class="contact-card">
+        <img src="/linkedin.svg" alt="LinkedIn" />
+        <span>Arthur Vitor</span>
+      </a>
+
+      <a href="https://github.com/arthurvitorads" target="_blank" class="contact-card">
+        <img src="/github.svg" alt="GitHub" />
+        <span>/arthurvitorads</span>
+      </a>
+
+      <div class="contact-card">
+        <img src="/email.svg" alt="Email" />
+        <span>arhturvitorsilvio@gmail.com</span>
+      </div>
+
+      <div class="contact-card">
+        <img src="/phone.svg" alt="Telefone" />
+        <span>(44) 99720-0378</span>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -83,4 +83,9 @@ h2 {
   margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 50px;
+  }
+}
 </style>

@@ -67,9 +67,6 @@ const icones = {
 }
 
 @media (max-width: 768px) {
-    .principal-content {
-        margin-bottom: 100px;
-    }
     
     .img-perfil {
         width: 200px;
