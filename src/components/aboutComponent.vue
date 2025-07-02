@@ -8,11 +8,8 @@
       <div class="text">
         <h5 class="card-title">Um pouco sobre mim:</h5>
         <p class="card-text">Olá! Me chamo Arthur Vitor, tenho 18 anos e sou estudante de Análise e Desenvolvimento de
-          Sistemas. Desde cedo descobri minha paixão pela programação e venho me dedicando a aprender e crescer na área
-          da tecnologia.</p>
-        <p>Sou uma pessoa proativa, com facilidade de adaptação e gosto de aprender por conta própria.
-          Tenho experiência com desenvolvimento web, testes automatizados com Cypress e já atuei em suporte técnico e
-          rotinas administrativas. </p>
+          Sistemas. Sou interessado pela área da tecnologia desde cedo e aos meus 16 anos, entrei de vez no mercado com suporte técnico.</p>
+        <p>Atualmente trabalho como tester e desenvolvedor web em linguagens como Vue.js, Vuetift, PHP e entre outros. Cheguei a realizar testes automatizados com Cypress e também já atuei em suporte técnico de um sistema ERP.</p>
         <p>Atualmente, busco oportunidades que me desafiem e me ajudem a evoluir como
           desenvolvedor. Meu objetivo é me especializar na área de desenvolvimento de sistemas e construir uma carreira
           sólida, sempre contribuindo com soluções criativas e eficientes.</p>
