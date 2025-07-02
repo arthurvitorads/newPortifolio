@@ -2,7 +2,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainApp from '@/views/main.vue'
 import InicioPage from '@/views/pages/inicioPage.vue'
-import SobrePage from '@/views/pages/sobrePage.vue'
 import ContatoPage from '@/views/pages/contatoPage.vue'
 import ProjectsPage from '@/views/pages/projectsPage.vue'
 
@@ -20,11 +19,6 @@ const routes = [
         path: '/projetos',
         name: 'Projetos',
         component: ProjectsPage
-      },
-      {
-        path: '/sobre',
-        name: 'Sobre',
-        component: SobrePage
       },
       {
         path: '/contato',

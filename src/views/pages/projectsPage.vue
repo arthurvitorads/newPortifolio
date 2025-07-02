@@ -1,7 +1,8 @@
+<!-- SobrePage.vue -->
 <template>
     <section class="projects-section">
         <div class="container text-center">
-            <h2 class="mb-4">Meus Projetos</h2>
+            <h2 class="title">Meus Projetos</h2>
             <div class="projects-grid">
                 <ProjectCard v-for="(projeto, index) in projetos" :key="index" :nome="projeto.nome"
                     :imagem="projeto.img" :sobre="projeto.sobre" :github="projeto.github" :web="projeto.web" />
@@ -15,6 +16,13 @@ import ProjectCard from '@/utils/cardsComponents.vue'
 
 const projetos = [
     {
+        nome: 'PostGerence',
+        github: 'https://github.com/arthurvitorads/postGerence',
+        img: '/preview3.png',
+        sobre: 'Este projeto foi desenvolvido para aplicar meus conhecimentos em VueJS, Vuetify, Laravel PHP.',
+        web: '',
+    },
+    {
         nome: 'BusFinder',
         github: 'https://github.com/arthurvitorads/linhaDeOnibus',
         img: '/preview.png',
@@ -25,37 +33,9 @@ const projetos = [
         nome: 'NutriPro',
         github: 'https://github.com/arthurvitorads/NutriPro',
         img: '/preview2.png',
-        sobre: 'Este projeto foi desenvolvido para aprofundar os meus conhecimentos em HTML, CSS e JavaScript.',
+        sobre: 'Este projeto foi desenvolvido para aplicar meus conhecimentos em HTML, CSS e JavaScript.',
         web: 'https://arthurvitorads.github.io/NutriPro/',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
-    {
-        nome: 'Clone Netflix',
-        github: 'https://github.com/seuusuario/netflix-clone',
-        img: '/preview.png',
-        sobre: 'Este projeto foi desenvolvido para auxiliar as pessoas da minha cidade, a localizarem as linhas e pontos desejados.',
-        web: 'https://netflixclone.app',
-    },
+    }
 ]
 </script>
 
@@ -73,5 +53,6 @@ const projetos = [
 
 h2 {
     font-weight: bold;
+    margin-bottom: 60px;
 }
 </style>

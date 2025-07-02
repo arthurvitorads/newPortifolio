@@ -10,10 +10,10 @@
                 </div>
                 <div class="d-flex justify-content-center flex-wrap gap-4">
                     <img v-for="(url, nome) in icones" :key="nome" :src="url" :alt="nome" :title="nome.toUpperCase()"
-                        width="50" height="50" />
+                        width="35" height="35" />
                 </div>
                 <div>
-                    <router-link to="/sobre"><button type="button" class="btn btn-outline-success">Saiba
+                    <router-link to="/projetos"><button type="button" class="btn btn-outline-success">Saiba
                             mais</button></router-link>
                 </div>
             </div>
@@ -63,4 +63,11 @@ const icones = {
     padding: 10px 30px 10px 30px;
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+.container{
+    display: block;
+}
+}
+
 </style>
