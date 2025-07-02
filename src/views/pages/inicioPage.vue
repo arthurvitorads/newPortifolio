@@ -1,8 +1,7 @@
 <template>
     <section class="principal-content">
         <div class="container text-center my-5">
-            <img src="/img.png" alt="Arthur Vitor" class="rounded-circle mb-3 img-perfil"
-                style="width: 400px; height: 400px; object-fit: cover" />
+            <img src="/img.png" alt="Arthur Vitor" class="rounded-circle mb-3 img-perfil" />
             <div>
                 <div class="text-content">
                     <h1>Seja bem-vindo ao meu portfólio!</h1>
@@ -48,6 +47,9 @@ const icones = {
 }
 
 .img-perfil {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
     transition: all .2s;
 }
 
@@ -65,9 +67,22 @@ const icones = {
 }
 
 @media (max-width: 768px) {
-.container{
-    display: block;
-}
-}
+    .principal-content {
+        margin-bottom: 100px;
+    }
+    
+    .img-perfil {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
 
+    .container {
+        display: block;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+}
 </style>

@@ -1,37 +1,42 @@
 <template>
-    <section class="navegacao-container p-3">
-        <div class="navegacao">
-            <h2>Arthur Vitor</h2>
-            <button class="menu-btn d-md-none" @click="toggleMenu">
-                ☰
-            </button>
-            <div class="list" :class="{ 'ativo': showMenu }">
-                <nav class="navegacao-lista nav">
-                    <ul class="nav justify-content-center flex-column flex-md-row text-center">
-                        <li class="nav-item">
-                            <router-link to="/" class="nav-link active">Início</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="/projetos" class="nav-link active">Projetos</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="/contato" class="nav-link active">Contato</router-link>
-                        </li>
-                    </ul>
-                </nav>
+  <section class="navegacao-container p-3">
+    <div class="navegacao">
+      <h2>Arthur Vitor</h2>
+      <button class="menu-btn d-md-none" @click="toggleMenu">
+        ☰
+      </button>
+      <div class="list" :class="{ 'ativo': showMenu }">
+        <nav class="navegacao-lista nav">
+          <ul class="nav justify-content-center flex-column flex-md-row text-center">
+            <li class="nav-item">
+              <router-link to="/" class="nav-link active" @click="fecharMenu">Início</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/projetos" class="nav-link active" @click="fecharMenu">Projetos</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/contato" class="nav-link active" @click="fecharMenu">Contato</router-link>
+            </li>
 
-                <div class="download-cv text-center text-md-start">
-                    <a href="/CURRICULO.pdf" download class="btn btn-outline-primary">Baixar CV</a>
-                </div>
-            </div>
+          </ul>
+        </nav>
+
+        <div class="download-cv text-center text-md-start">
+          <a href="/CURRICULO.pdf" download class="btn btn-outline-primary">Baixar CV</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue'
 
 const showMenu = ref(false)
+
+function fecharMenu() {
+  showMenu.value = false
+}
 
 function toggleMenu() {
   showMenu.value = !showMenu.value
@@ -40,6 +45,11 @@ function toggleMenu() {
 </script>
 
 <style scoped>
+
+template{
+  overflow-x: hidden;
+}
+
 .navegacao-container {
   background-color: #1a1a1a;
 
@@ -117,5 +127,4 @@ function toggleMenu() {
 .nav-link {
   color: white;
 }
-
 </style>

@@ -20,10 +20,7 @@ export default defineComponent({
 <style scoped>
 
 .contact-section {
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 100px;
 }
 
 </style>
